@@ -10,7 +10,7 @@ find along the way.
 
 ## Released
 
-**[FLE — Fast Local Experts](https://github.com/sirfyyn/FastLocalExperts)** · v1.0.1 · MIT
+**[FLE — Fast Local Experts](https://github.com/sirfyyn/FastLocalExperts)** · v1.1.0 · MIT
 A llama.cpp fork for running large Mixture-of-Experts models on one 32 GB GPU with the routed experts in host
 RAM: a GPU expert cache with a byte budget and warm start, cache hits on the GPU overlapped with misses on the
 CPU, MTP speculative decoding with the model's own head, and a leaner prefill. On Qwen3.8-Flash-Next (89 GB)
@@ -21,7 +21,11 @@ it decodes at roughly **90 tok/s** in my own paired measurements (RTX PRO 4500 3
 [REAP448](https://huggingface.co/sirfyyn/Qwen3.8-Flash-Next-FLE-REAP448-GGUF) ·
 [“Making Rhea fast” films](https://www.youtube.com/playlist?list=PLMYhpsBSEhIQ)
 
-**[FYOS — For Your Own Sake](https://github.com/sirfyyn/fyos-os)** · v0.1.0 · Apache-2.0
+**[FLE Studio](https://github.com/sirfyyn/fle-studio)** · v0.3.0 · MIT
+A local chat and lab for llama.cpp and the FLE engine: GGUF model loader, live inference data, launch profiles.
+No account, no telemetry, macOS, Linux and Windows. [Website](https://sirfyyn.de/fyos/en/studio/)
+
+**[FYOS — For Your Own Sake](https://github.com/sirfyyn/fyos-os)** · v0.1.1 · Apache-2.0
 A personal operating system in the browser that runs entirely on your side: a desktop shell with windows and
 apps, an MCP hub that bundles tools and interfaces from plugins, an installer for Docker Compose or Kubernetes,
 and an agent that works with those tools and asks before heavy steps.
@@ -47,4 +51,4 @@ long sessions instead of depending on the automatic summary.
 - I build with several AI coding agents in parallel; the decisions stay with me.
 - I build for myself first. Sensible issues, PRs and hints are welcome; there is no support promise.
 
-🌐 [sirfyyn.de](https://sirfyyn.de) · 🤗 [huggingface.co/sirfyyn](https://huggingface.co/sirfyyn)
+🌐 [sirfyyn.de](https://sirfyyn.de) · 🤗 [huggingface.co/sirfyyn](https://huggingface.co/sirfyyn) · ▶️ [YouTube @sirfyyn](https://www.youtube.com/@sirfyyn)
