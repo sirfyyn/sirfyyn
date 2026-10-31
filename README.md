@@ -25,14 +25,6 @@ it decodes at roughly **90 tok/s** in my own paired measurements (RTX PRO 4500 3
 A local chat and lab for llama.cpp and the FLE engine: GGUF model loader, live inference data, launch profiles.
 No account, no telemetry, macOS, Linux and Windows. [Website](https://sirfyyn.de/fyos/en/studio/)
 
-**[FYOS — For Your Own Sake](https://github.com/sirfyyn/fyos-os)** · v0.1.1 · Apache-2.0
-A personal operating system in the browser that runs entirely on your side: a desktop shell with windows and
-apps, an MCP hub that bundles tools and interfaces from plugins, an installer for Docker Compose or Kubernetes,
-and an agent that works with those tools and asks before heavy steps.
-[fyos-os](https://github.com/sirfyyn/fyos-os) (shell, hub, installer) ·
-[fyos-agent](https://github.com/sirfyyn/fyos-agent) (the agent, an OpenClaw mod) ·
-[fyos-plugin-vorlage](https://github.com/sirfyyn/fyos-plugin-vorlage) (template for your own plugin)
-
 **[Contexierge](https://github.com/sirfyyn/claude-contexierge)** · Claude Code plugin · MIT
 Claude keeps its own session notebook, injected verbatim after every compaction, so what matters survives
 long sessions instead of depending on the automatic summary.
