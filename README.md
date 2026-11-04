@@ -14,13 +14,13 @@ find along the way.
 Run local AI models with one file and one command: it checks the machine, installs the right engine, finds or
 downloads the model (every file checked by its SHA-256) and serves an OpenAI- and Anthropic-compatible API, with a
 Studio for chat, live numbers and recipes. 66 s from nothing to the first answer on Linux, 68 s on an 8 GB MacBook.
-DeepSeek-V4.1-Flash (232 GiB) runs at **31.6 tok/s** through FLE Link on one 32 GB GPU.
+DeepSeek-V4.1-Flash (232 GiB) runs at **31.6 tok/s** through FLE Link on one 32 GB GPU (best performance measured on Linux).
 
 **[FLE — Fast Local Experts](https://github.com/sirfyyn/FastLocalExperts)** · v1.2.4 · MIT
 A llama.cpp fork for large Mixture-of-Experts models on one 32 GB GPU with the routed experts in host RAM: a GPU
 expert cache with a byte budget and warm start, a RAM expert store, prefill windows, MTP and DSpark speculative
 decoding. Qwen3.8-Flash-Next (89 GB) at roughly **90 tok/s**; DeepSeek-V4.1-Flash exact at **33.3 tok/s**, with the
-DSpark draft model 41.9 (RTX PRO 4500 32 GB + Ryzen 9950X3D, 120 GB RAM, my own measurements).
+DSpark draft model 41.9 (RTX PRO 4500 32 GB + Ryzen 9950X3D, 120 GB RAM, my own measurements). Best performance measured on Linux.
 [Technical report](https://sirfyyn.github.io/FastLocalExperts/) ·
 [Zenodo](https://doi.org/10.5281/zenodo.23272400) ·
 [“Making Rhea fast” films](https://www.youtube.com/playlist?list=PLMYhpsBSEhIQ)
